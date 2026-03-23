@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STC Landing Page</title>
+    <style>
+      :root {
+        --figma-width: 1440;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+      }
+
+      .design-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+      }
+
+      .design-image {
+        width: min(100vw, calc(var(--figma-width) * 1px));
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="design-wrap">
+      <img
+        class="design-image"
+        src="./public/images/landing-full.png"
+        alt="STC landing page design"
+      />
+    </main>
+  </body>
+</html>
