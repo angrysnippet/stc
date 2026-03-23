@@ -26,6 +26,10 @@ body,
   background: #000;
 }
 
+.figmaStack {
+  width: min(100vw, calc(var(--figma-width) * 1px));
+}
+
 .figmaBadge {
   position: fixed;
   top: 12px;
@@ -41,7 +45,7 @@ body,
 }
 
 .figmaImage {
-  width: min(100vw, calc(var(--figma-width) * 1px));
+  width: 100%;
   height: auto;
   display: block;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
